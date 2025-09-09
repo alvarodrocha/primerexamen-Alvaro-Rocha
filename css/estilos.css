@@ -110,3 +110,73 @@ body {
       outline: 3px solid rgb(46, 63, 62); 
       outline-offset: 2px;
     }
+
+    nav.menu {
+    display: flex;
+    gap: 1rem;
+    }
+
+    nav.menu a {
+    text-decoration: none;
+    color: white;
+    }
+
+
+    #menu-toggle {
+    display: none;
+    }
+
+
+    .menu-icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: none;
+    color: white;
+    }
+
+    .menu-toggle {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
+    }
+
+@media (max-width: 600px) {
+  header {
+    background: red; 
+  }
+
+  nav.menu {
+    display: none;
+    flex-direction: column;
+    background: rgb(70, 67, 67);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+ 
+  #menu-toggle:checked + .menu-icon + nav.menu {
+    display: flex;
+  }
+
+   .banner {
+    display: none;
+  }
+
+  .products {
+    grid-template-columns: 1fr; 
+  }
+
+  footer {
+    color: blue; 
+  }
+}

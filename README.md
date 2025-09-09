@@ -25,3 +25,11 @@ La navegación es completamente usable con teclado (`Tab`, `Enter`).
 Se evitó el uso excesivo de `<div>` → se usaron etiquetas semánticas.
 `id="contenido"` asegura que el skip link funcione correctamente.
 Uso prudente de atributos `aria-*` (solo donde aporta valor).
+
+# SEO
+Se implementaron prácticas básicas:
+1.Título único (`<title>`) - `"MANACO - Calzado que impulsa tu paso"`.
+2.Meta descripción optimizada** (150-160 caracteres) - describe beneficios y palabras clave relacionadas.
+3.Etiquetas Open Graph (`og:title`, `og:description`, `og:image`)** → mejoran la vista previa en redes sociales.
+4.Jerarquía semántica de encabezados - H1 para el eslogan principal, H2 para secciones, H3 para productos.
+5.Contenido descriptivo en `alt` de imágenes - mejora indexación en Google Images.
